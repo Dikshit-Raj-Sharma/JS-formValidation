@@ -35,3 +35,47 @@
     text-align:center;
     padding:5px 8px;
 }
+.signup-body div{
+    margin-top:20px;
+}
+.signup-body div span{
+    font-weight:500;
+    font-size:18px;
+}
+.signup-body label{
+    font-weight:600;
+    font-size:18px;
+}
+.signup-body input{
+    width:100%;
+    padding:10px;
+    border-radius:4px;
+    font-size:18px;
+    margin-block:4px;
+    outline:none;
+    border:none;
+    color:#000
+}
+.signup-body div input[type='submit']{
+    border:none;
+    background-color: #3498db;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+}
+.signup-body div input[type='submit']:hover{
+    background-color:#2773a5;
+}
+.signup-footer p{
+    text-align:center;
+    margin-top:20px;
+    font-weight:600;
+    text-decoration: none;
+}
+.signup-footer p a{
+    text-decoration: none;
+}
+.signup-footer p a:hover{
+    text-decoration: underline;
+}

@@ -16,10 +16,32 @@
                 <h1>Sign Up</h1>
             </header>
             <main class="signup-body">
-                
+                <form>
+                    <div >
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Your Name" required>
+                        <span id="nameError"></span>
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" placeholder="example@domain.com" required>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="At least 8 characters" minlength="8" maxlength="16"required>
+                    </div>
+                    <div>
+                        <input type="submit" value="Create Account" id="submitBtn">
+                    </div>
+                </form>
             </main>
-            <footer></footer>
+            <footer class="signup-footer">
+                <p>
+                    Already have an account? <a href="">Login</a>
+                </p>
+            </footer>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
